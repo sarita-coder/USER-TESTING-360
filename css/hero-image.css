@@ -1,0 +1,84 @@
+*{
+		box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+.hero-image{
+	background: url('../image/large.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.formulario{
+	border-top: 5px solid #6a99d0;
+	width: 45%;
+	margin: auto;
+	background:white;
+	padding: 0 1%;
+}
+label{
+	padding: 2% 0 0;
+	display: block;
+}
+form{
+	width: 80%;
+margin: auto;
+}
+.label{
+	width: 150px;
+	display: inline-block;
+}
+input , textarea{
+	width: 250px;
+}
+.t-center{
+	text-align: center;
+}
+.imput-center{
+	margin-left: 160px;
+}
+.button{
+	margin-left: 153px;
+}
+button{
+	padding: 2% 3%;
+	background:#74a3db ;
+	color:white;
+	border-radius: 5px;
+	margin-bottom: 2%;
+}
+.float {
+	float: right;
+	color: black;
+}
+.rojo{
+	color: red;
+}
+.pie p , .pie a{
+	margin-top:2%;
+	font-family: serif; 
+}
+.pie-pagina {
+	color: black;
+	float: left;
+}
+@media screen and (max-width: 1200px) {
+	.formulario {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.formulario {
+		width: 100%;
+	}
+	.imput-center{
+	margin-left: 0px;
+}
+button{
+	width: 100%;
+}
+}
